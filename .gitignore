@@ -1,0 +1,15 @@
+# Embedded Logger Library 
+ 
+# Build directories 
+build/ 
+.vscode/settings.json 
+*.user 
+ 
+# Platform-specific 
+sdkconfig 
+sdkconfig.old 
+.pio/ 
+# STM32 
+*.elf 
+*.hex 
+*.bin 

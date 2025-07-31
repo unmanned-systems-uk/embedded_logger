@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "name": "ESP32",
+            "includePath": [
+                "${workspaceFolder}/include/**",
+                "${IDF_PATH}/components/**"
+            ],
+            "defines": [
+                "PLATFORM_ESP32"
+            ],
+            "compilerPath": "xtensa-esp32-elf-gcc",
+            "intelliSenseMode": "windows-msvc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/include/**"
+            ],
+            "defines": [
+                "PLATFORM_STM32"
+            ],
+            "compilerPath": "arm-none-eabi-gcc",
+            "intelliSenseMode": "windows-msvc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Arduino",
+            "includePath": [
+                "${workspaceFolder}/include/**"
+            ],
+            "defines": [
+                "PLATFORM_ARDUINO"
+            ],
+            "compilerPath": "avr-gcc",
+            "intelliSenseMode": "windows-msvc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

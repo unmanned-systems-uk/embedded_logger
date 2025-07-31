@@ -1,0 +1,1 @@
+// POSIX console output 

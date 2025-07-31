@@ -1,0 +1,4 @@
+@PACKAGE_INIT@ 
+ 
+include(CMakeFindDependencyMacro) 
+# Package configuration template 
